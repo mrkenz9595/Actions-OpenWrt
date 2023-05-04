@@ -14,4 +14,4 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 svn co https://github.com/RADIUSdesk/openwrt-meshdesk/trunk/files files
 svn co https://github.com/RADIUSdesk/openwrt-meshdesk/trunk/luci-app-meshdesk feeds/luci/applications/luci-app-meshdesk
-svn co https://github.com/RADIUSdesk/openwrt-meshdesk/trunk/MESHdesk /package/MESHdesk
+svn co https://github.com/RADIUSdesk/openwrt-meshdesk/trunk/MESHdesk package/MESHdesk
