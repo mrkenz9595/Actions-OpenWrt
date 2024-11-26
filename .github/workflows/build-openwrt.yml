@@ -75,13 +75,13 @@ jobs:
 
     - name: Load custom configuration
       run: |
-        [ -e files ] && mv package openwrt/package
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x $DIY_P2_SH
         cd openwrt
-        chmod +x package/base-files/files/etc/uci-defaults/95-change-root-password
         $GITHUB_WORKSPACE/$DIY_P2_SH
-
+        cd package/base-files/files/etc/uci-defaults
+        wget https://raw.githubusercontent.com/mrkenz9595/Actions-OpenWrt/refs/heads/main/package/base-files/etc/uci-defaults/95-change-root-password
+        chmod +x 95-change-root-password
 #    - name: Install feeds meshdesk
 #      run: cd openwrt && ./scripts/feeds update -i && ./scripts/feeds install -f luci-app-meshdesk
 
