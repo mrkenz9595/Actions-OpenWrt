@@ -15,3 +15,4 @@
 #svn co https://github.com/RADIUSdesk/openwrt-meshdesk/trunk/files files
 #svn co https://github.com/RADIUSdesk/openwrt-meshdesk/trunk/luci-app-meshdesk feeds/luci/applications/luci-app-meshdesk
 #svn co https://github.com/RADIUSdesk/openwrt-meshdesk/trunk/MESHdesk package/MESHdesk
+svn co https://github.com/mrkenz9595/Actions-OpenWrt/trunk/default-settings package/default-settings
