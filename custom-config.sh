@@ -59,15 +59,15 @@ echo 'CONFIG_PACKAGE_mosquitto-client-ssl=y' >> $BUILD_ROOT/.config
 echo 'CONFIG_PACKAGE_lua-mosquitto=y' >> $BUILD_ROOT/.config
 echo 'CONFIG_PACKAGE_wpad=y' >> $BUILD_ROOT/.config
 echo 'CONFIG_PACKAGE_batctl=y' >> $BUILD_ROOT/.config
-echo 'CONFIG_PACKAGE_iptables-nft' >> $BUILD_ROOT/.config
-echo 'CONFIG_PACKAGE_luci-lib-nixio' >> $BUILD_ROOT/.config
-echo 'CONFIG_PACKAGE_luci-lib-base' >> $BUILD_ROOT/.config
-echo 'CONFIG_PACKAGE_openvpn-openssl' >> $BUILD_ROOT/.config
-echo 'CONFIG_PACKAGE_iw-full' >> $BUILD_ROOT/.config
-echo 'CONFIG_PACKAGE_sqm-scripts' >> $BUILD_ROOT/.config
-echo 'CONFIG_PACKAGE_luci-app-sqm' >> $BUILD_ROOT/.config
-echo 'kmod-nft-bridge' >> $BUILD_ROOT/.config
-echo 'kmod-dummy' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_iptables-nft=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_luci-lib-nixio=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_luci-lib-base=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_openvpn-openssl=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_iw-full=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_sqm-scripts=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_luci-app-sqm=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_kmod-nft-bridge=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_PACKAGE_kmod-dummy=y' >> $BUILD_ROOT/.config
 echo 'CONFIG_PACKAGE_wpad=y' >> $BUILD_ROOT/.config
 #echo 'CONFIG_PACKAGE_luci-app-wol=y' >> $BUILD_ROOT/.config
 
