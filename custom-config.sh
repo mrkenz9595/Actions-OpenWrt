@@ -11,9 +11,9 @@
 #echo 'CONFIG_TARGET_mediatek_filogic_DEVICE_bananapi_bpi-r3-mini=y' >> $BUILD_ROOT/.config
 #echo 'CONFIG_TARGET_ROOTFS_PARTSIZE=4096' >> $BUILD_ROOT/.config
 
-CONFIG_TARGET_mediatek=y
-CONFIG_TARGET_mediatek_filogic=y
-CONFIG_TARGET_mediatek_filogic_DEVICE_abt_asr3000=y
+echo 'CONFIG_TARGET_mediatek=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_TARGET_mediatek_filogic=y' >> $BUILD_ROOT/.config
+echo 'CONFIG_TARGET_mediatek_filogic_DEVICE_abt_asr3000=y' >> $BUILD_ROOT/.config
 
 # Users & Groups Support
 #echo 'CONFIG_PACKAGE_shadow-utils=y' >> $BUILD_ROOT/.config
